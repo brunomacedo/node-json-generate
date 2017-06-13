@@ -1,0 +1,28 @@
+### Basic ###
+# Apples Build
+*.build
+*.apples
+
+# Initialized files
+*.exe
+*.ini
+*.basic
+
+### SVN ###
+.svn/
+
+### TortoiseGit ###
+# Project-level settings
+/.tgitconfig
+
+### Adobe ###
+# Adobe Source Files
+*.psd
+*.ai
+*.indd
+*.prproj
+*.aep
+
+### Node Modules ### 
+/node_modules
+/public
