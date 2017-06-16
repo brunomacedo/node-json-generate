@@ -26,4 +26,6 @@
 ### Node Modules ### 
 /node_modules
 /public
+/node-json-generate
+/templates
 package-lock.json
