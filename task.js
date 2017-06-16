@@ -53,7 +53,7 @@ const addFile = ( file, answer, answer2 ) => {
 						"name": answer2.replace(/\s/g, '-')
 					});
 
-					var json = JSON.stringify(array);
+					let json = JSON.stringify(array);
 					fs.writeFile(jsonP, json);
 				}
 			});
@@ -76,7 +76,7 @@ const addFile = ( file, answer, answer2 ) => {
 				"name": answer2.replace(/\s/g, '-')
 			});
 
-			var json = JSON.stringify(array);
+			let json = JSON.stringify(array);
 			fs.writeFile(jsonP, json);
 		}
 	});
