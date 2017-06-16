@@ -40,11 +40,9 @@ const addFile = ( file, answer, answer2 ) => {
 					array = JSON.parse(data);
 
 					console.log(
-						log.box('                       ')+
 						'\n \n' + log.green('id: ') + log.yellow(array.length + 1) +
 						'\n' + log.green('projeto: ') + log.yellow(answer2.replace(/\s/g, '-')) +
-						'\n' + log.green('em: ') + log.yellow(answer.replace(/\s/g, '-')) + '\n \n' +
-						log.box('                       ')
+						'\n' + log.green('em: ') + log.yellow(answer.replace(/\s/g, '-')) + '\n \n'
 					);
 					
 					array.push({
@@ -63,11 +61,9 @@ const addFile = ( file, answer, answer2 ) => {
 			console.log(log.warn('\n' + ' Criando o arquivo projetos .json... ' + '\n'));
 
 			console.log(
-				log.box('                       ')+
 				'\n \n' + log.green('id: ') + log.yellow('1') +
 				'\n' + log.green('projeto: ') + log.yellow(answer2.replace(/\s/g, '-')) +
-				'\n' + log.green('em: ') + log.yellow(answer.replace(/\s/g, '-')) + '\n \n' +
-				log.box('                       ')
+				'\n' + log.green('em: ') + log.yellow(answer.replace(/\s/g, '-')) + '\n \n'
 			);
 
 			array.push({

@@ -30,7 +30,7 @@ const rem = ( file, answer ) => {
 	fs.exists(jsonP, (exists) => {
 		if (exists) {
 
-			console.log(log.warn('\n' + ' Removendo um novo projeto... ' + '\n'));
+			console.log(log.warn('\n' + ' Removendo um projeto da lista json... ' + '\n'));
 
 			fs.readFile(jsonP, (err, data) => {
 				if (err) {
@@ -62,7 +62,7 @@ const rem = ( file, answer ) => {
 
 rl.question(log.blue('\n' + 'Qual ID do projeto para remover? '), (answer) => {
 
-    rem( produto, answer );
+    rem( host, answer );
 
     rl.close();
     
