@@ -51,7 +51,6 @@ const rem = ( file, answer ) => {
 			});
 
 		} else {
-
 			console.log(log.warn('\n' + ' Não tem nada para remover... ' + '\n'));
 
 			let json = JSON.stringify(array);
