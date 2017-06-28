@@ -11,10 +11,10 @@ $ npm install
 ```
 
 ## Node Start
-
-* Start: 
+ 
 ```
-$ node task.js`
+$ node task.js
 ```
 
+---
 * Version: 1.0.1
