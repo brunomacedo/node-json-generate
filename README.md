@@ -1,11 +1,20 @@
-# README #
+# Node Generate Json
+> Create json file by readline in your prompt command.
 
-Start with node to create a json file.
+[![node version](https://img.shields.io/badge/node-v6.9.5-green.svg)](https://nodejs.org/en/download/)
+[![npm version](https://img.shields.io/badge/npm-v3.10.10-red.svg)](https://nodejs.org/en/download/)
 
-### Install dependencies
-`$ npm install`
+## Installation
 
-### Node Start
+```
+$ npm install
+```
 
-* Start: `$ node task.js`
-* Version: 1.0.0
+## Node Start
+
+* Start: 
+```
+$ node task.js`
+```
+
+* Version: 1.0.1
